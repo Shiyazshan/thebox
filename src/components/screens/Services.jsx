@@ -1,12 +1,15 @@
 import React, { useState } from "react";
+import { styled } from "styled-components";
+
+//imports
 import con from "../assets/images/services/construction.svg";
 import reno from "../assets/images/services/renovation.svg";
 import cons from "../assets/images/services/consultation.svg";
 import rep from "../assets/images/services/renovation.svg";
 import arc from "../assets/images/services/arch.svg";
 import ele from "../assets/images/services/electric.svg";
-import { styled } from "styled-components";
 import ServiceModal from "../includes/modal/ServiceModal";
+
 const Services = () => {
   const [isModal, setModal] = useState(false);
   const path = window.location.pathname;

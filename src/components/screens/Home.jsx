@@ -1,7 +1,7 @@
-//App.js File
 import React from "react";
 import { styled } from "styled-components";
-import Header from "../includes/Header";
+
+//imports
 import bg from "../assets/images/bg.jpg";
 import About from "./About";
 import Services from "./Services";

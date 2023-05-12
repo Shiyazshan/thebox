@@ -1,7 +1,9 @@
 import React from "react";
+import { styled } from "styled-components";
+
+//imports
 import head from "../assets/images/about/headphone.svg";
 import flight from "../assets/images/about/flight.svg";
-import { styled } from "styled-components";
 import ceo from "../assets/images/about/ceo.jpg";
 
 const About = () => {

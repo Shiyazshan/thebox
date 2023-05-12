@@ -1,10 +1,13 @@
 import React from "react";
 import Slider from "react-slick";
 import styled from "styled-components";
+
+//imports
 import client from "../assets/images/testimonials/ourclient.jpg";
 import prof from "../assets/images/testimonials/client1.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 const Testimonials = () => {
   const settings = {
     dots: true,
